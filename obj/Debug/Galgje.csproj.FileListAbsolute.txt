@@ -1,0 +1,15 @@
+C:\Users\32499\Documents\Galgje\bin\Debug\Galgje.exe.config
+C:\Users\32499\Documents\Galgje\bin\Debug\Galgje.exe
+C:\Users\32499\Documents\Galgje\bin\Debug\Galgje.pdb
+C:\Users\32499\Documents\Galgje\obj\Debug\Galgje.csproj.AssemblyReference.cache
+C:\Users\32499\Documents\Galgje\obj\Debug\MainWindow.g.cs
+C:\Users\32499\Documents\Galgje\obj\Debug\App.g.cs
+C:\Users\32499\Documents\Galgje\obj\Debug\Galgje_MarkupCompile.cache
+C:\Users\32499\Documents\Galgje\obj\Debug\Galgje_MarkupCompile.lref
+C:\Users\32499\Documents\Galgje\obj\Debug\MainWindow.baml
+C:\Users\32499\Documents\Galgje\obj\Debug\Galgje.g.resources
+C:\Users\32499\Documents\Galgje\obj\Debug\Galgje.Properties.Resources.resources
+C:\Users\32499\Documents\Galgje\obj\Debug\Galgje.csproj.GenerateResource.cache
+C:\Users\32499\Documents\Galgje\obj\Debug\Galgje.csproj.CoreCompileInputs.cache
+C:\Users\32499\Documents\Galgje\obj\Debug\Galgje.exe
+C:\Users\32499\Documents\Galgje\obj\Debug\Galgje.pdb
