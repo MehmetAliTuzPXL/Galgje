@@ -75,6 +75,7 @@ namespace Galgje
                 inputTextBox.Text = "Geen pogingen meer over.";
             }
             pogingTextBlock.Text = Convert.ToString(aantalPogingen);
+            PogingImage(aantalPogingen);
         }
 
         private void Guessword(string word)
@@ -104,6 +105,43 @@ namespace Galgje
                 fouteLetters.Append(letter);
                 foutTxtBlock.Text = Convert.ToString(fouteLetters);
                 aantalPogingen--;
+            }
+        }
+
+        private void PogingImage(int aantalPogingen)
+        {
+            switch (aantalPogingen)
+            {
+                case 0:
+                    pogingImage.Source = new BitmapImage(new Uri(@"Assets/poging0.png", UriKind.Relative));
+                    break;
+                case 1:
+                    pogingImage.Source = new BitmapImage(new Uri(@"Assets/poging9.png", UriKind.Relative));
+                    break;
+                case 2:
+                    pogingImage.Source = new BitmapImage(new Uri(@"Assets/poging8.png", UriKind.Relative));
+                    break;
+                case 3:
+                    pogingImage.Source = new BitmapImage(new Uri(@"Assets/poging7.png", UriKind.Relative));
+                    break;
+                case 4:
+                    pogingImage.Source = new BitmapImage(new Uri(@"Assets/poging6.png", UriKind.Relative));
+                    break;
+                case 5:
+                    pogingImage.Source = new BitmapImage(new Uri(@"Assets/poging5.png", UriKind.Relative));
+                    break;
+                case 6:
+                    pogingImage.Source = new BitmapImage(new Uri(@"Assets/poging4.png", UriKind.Relative));
+                    break;
+                case 7:
+                    pogingImage.Source = new BitmapImage(new Uri(@"Assets/poging3.png", UriKind.Relative));
+                    break;
+                case 8:
+                    pogingImage.Source = new BitmapImage(new Uri(@"Assets/poging2.png", UriKind.Relative));
+                    break;
+                case 9:
+                    pogingImage.Source = new BitmapImage(new Uri(@"Assets/poging1.png", UriKind.Relative));
+                    break;
             }
         }
     }

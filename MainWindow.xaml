@@ -15,7 +15,6 @@
         <TextBlock FontSize="32" Background="Green" Name="juistTxtBlock" HorizontalAlignment="Center" Margin="0,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="344"/>
         <TextBlock FontSize="32" Background="Red" Name="foutTxtBlock" HorizontalAlignment="Center" Margin="0,214,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="344"/>
         <TextBlock Background="Blue" Name="pogingTextBlock" HorizontalAlignment="Left" Margin="43,214,0,0" TextWrapping="Wrap" Text="" FontSize="40" TextAlignment="Center" VerticalAlignment="Top" Height="62" Width="57"/>
-        <Image Source="/Assets/poging0.png" HorizontalAlignment="Left" Height="128" Margin="642,10,0,0" VerticalAlignment="Top" Width="140"/>
-
+        <Image x:Name="pogingImage" Source="/Assets/poging0.png" HorizontalAlignment="Left" Height="128" Margin="642,10,0,0" VerticalAlignment="Top" Width="140"/>
     </Grid>
 </Window>
